@@ -6,7 +6,6 @@
     background-color: #1F2937;
     color: white;
     padding: 40px;
-    margin: 0px;
     font-size: 24px;
     font-style: #f9faf8;
 }
@@ -32,4 +31,149 @@ a:link {
     list-style-type: none;
     text-decoration: none;
     color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    flex: 1;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #1F2937;
+    padding: 40px;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.awesome-website {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    border-color: #f9faf8;
+}
+
+.sign-up:hover {
+    background-color: #1F2937;
+}
+
+.styled-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    padding: 10px;
+}
+
+.four-image-container {
+    display: flex;
+    gap: 20px;
+}
+
+.image-wrapper {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.smaller-image {
+    width: auto;
+    height: 210px;
+    border-radius: 10px;
+}
+
+.third-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 200px;
+    margin: 0;
+}
+
+.quote-container {
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    font-size: 14px;
+    color: #888;
+}
+
+.fourth-box {
+    padding: 300px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.action-call {
+    font-size: 30px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.product-sign {
+    font-size: 20px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1F2937; /* Set background color of the footer */
+    color: white; /* Set text color */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add padding for spacing */
 }
