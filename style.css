@@ -1,0 +1,175 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.section-one,
+.section-two, 
+.section-three,
+.section-four {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer,
+.hero{
+    background-color: #1F2937;
+}
+
+.left-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 20px;
+}
+
+.left-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6
+}
+
+.title-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.large-quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.header {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.content {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    gap: 30px;
+}
+
+.right-image {
+    height: 200px;
+    width: auto;
+}
+
+.sign-up {
+    max-width: 100px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+}
+
+.section-two {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    max-width: auto;
+    height: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.image-container {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.author-container {
+    align-self: flex-end;
+}
+
+.section-four {
+    justify-content: center;
+}
+
+.modal {
+    background-color: #3882f6;
+    color: white;
+    height: 100px;
+    width: 600px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.left-modal-heading {
+    font-weight: 800;
+}
+
+.left-modal-text {
+   padding-left: 30px;
+}
+
+.sign-up-modal {
+    max-width: 100px;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+}
